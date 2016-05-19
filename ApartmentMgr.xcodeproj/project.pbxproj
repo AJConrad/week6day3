@@ -12,9 +12,18 @@
 		49B200771CECA33A00B3FE69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B200751CECA33A00B3FE69 /* Main.storyboard */; };
 		49B200791CECA33A00B3FE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B200781CECA33A00B3FE69 /* Assets.xcassets */; };
 		49B2007C1CECA33A00B3FE69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B2007A1CECA33A00B3FE69 /* LaunchScreen.storyboard */; };
+		49B200C41CECDE3D00B3FE69 /* WorkOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B200C31CECDE3D00B3FE69 /* WorkOrder.swift */; };
+		49B200C81CECE57A00B3FE69 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B200C71CECE57A00B3FE69 /* LoginManager.swift */; };
+		49B200CA1CED04D000B3FE69 /* ResidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B200C91CED04D000B3FE69 /* ResidentViewController.swift */; };
+		49B200CC1CED04E100B3FE69 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B200CB1CED04E100B3FE69 /* AdminViewController.swift */; };
+		49B200D01CED6A9C00B3FE69 /* ResidentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B200CF1CED6A9C00B3FE69 /* ResidentDetailViewController.swift */; };
+		49B200D21CED6AAE00B3FE69 /* AdminDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B200D11CED6AAE00B3FE69 /* AdminDetailViewController.swift */; };
+		78BC701CAE305106D5DDD598 /* Pods_ApartmentMgr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAAF5C71842F7FD5635C1AE /* Pods_ApartmentMgr.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EAAF5C71842F7FD5635C1AE /* Pods_ApartmentMgr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApartmentMgr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E8289E21DD057B969D3393 /* Pods-ApartmentMgr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApartmentMgr.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApartmentMgr/Pods-ApartmentMgr.release.xcconfig"; sourceTree = "<group>"; };
 		49B2006E1CECA33A00B3FE69 /* ApartmentMgr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApartmentMgr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B200711CECA33A00B3FE69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49B200731CECA33A00B3FE69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,13 @@
 		49B200781CECA33A00B3FE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49B2007B1CECA33A00B3FE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49B2007D1CECA33A00B3FE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B200C31CECDE3D00B3FE69 /* WorkOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkOrder.swift; sourceTree = "<group>"; };
+		49B200C71CECE57A00B3FE69 /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		49B200C91CED04D000B3FE69 /* ResidentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResidentViewController.swift; sourceTree = "<group>"; };
+		49B200CB1CED04E100B3FE69 /* AdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		49B200CF1CED6A9C00B3FE69 /* ResidentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResidentDetailViewController.swift; sourceTree = "<group>"; };
+		49B200D11CED6AAE00B3FE69 /* AdminDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminDetailViewController.swift; sourceTree = "<group>"; };
+		C02BB7A2719A7B043E6560B2 /* Pods-ApartmentMgr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApartmentMgr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApartmentMgr/Pods-ApartmentMgr.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BC701CAE305106D5DDD598 /* Pods_ApartmentMgr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		475B5A0FE667727FBB8BF9D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C02BB7A2719A7B043E6560B2 /* Pods-ApartmentMgr.debug.xcconfig */,
+				34E8289E21DD057B969D3393 /* Pods-ApartmentMgr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		49B200651CECA33A00B3FE69 = {
 			isa = PBXGroup;
 			children = (
 				49B200701CECA33A00B3FE69 /* ApartmentMgr */,
 				49B2006F1CECA33A00B3FE69 /* Products */,
+				475B5A0FE667727FBB8BF9D6 /* Pods */,
+				E0CEE29AEC8CD95D9AF7AF76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +84,26 @@
 			children = (
 				49B200711CECA33A00B3FE69 /* AppDelegate.swift */,
 				49B200731CECA33A00B3FE69 /* ViewController.swift */,
+				49B200C71CECE57A00B3FE69 /* LoginManager.swift */,
+				49B200C91CED04D000B3FE69 /* ResidentViewController.swift */,
+				49B200CF1CED6A9C00B3FE69 /* ResidentDetailViewController.swift */,
+				49B200CB1CED04E100B3FE69 /* AdminViewController.swift */,
+				49B200D11CED6AAE00B3FE69 /* AdminDetailViewController.swift */,
 				49B200751CECA33A00B3FE69 /* Main.storyboard */,
+				49B200C31CECDE3D00B3FE69 /* WorkOrder.swift */,
 				49B200781CECA33A00B3FE69 /* Assets.xcassets */,
 				49B2007A1CECA33A00B3FE69 /* LaunchScreen.storyboard */,
 				49B2007D1CECA33A00B3FE69 /* Info.plist */,
 			);
 			path = ApartmentMgr;
+			sourceTree = "<group>";
+		};
+		E0CEE29AEC8CD95D9AF7AF76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EAAF5C71842F7FD5635C1AE /* Pods_ApartmentMgr.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49B200801CECA33A00B3FE69 /* Build configuration list for PBXNativeTarget "ApartmentMgr" */;
 			buildPhases = (
+				52FE03F2343F1BAFDC951A77 /* 📦 Check Pods Manifest.lock */,
 				49B2006A1CECA33A00B3FE69 /* Sources */,
 				49B2006B1CECA33A00B3FE69 /* Frameworks */,
 				49B2006C1CECA33A00B3FE69 /* Resources */,
+				6F5E975BE177D9D07633B403 /* 📦 Embed Pods Frameworks */,
+				5A6596D247C0B00CE627451A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +176,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52FE03F2343F1BAFDC951A77 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A6596D247C0B00CE627451A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApartmentMgr/Pods-ApartmentMgr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F5E975BE177D9D07633B403 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApartmentMgr/Pods-ApartmentMgr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49B2006A1CECA33A00B3FE69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B200CC1CED04E100B3FE69 /* AdminViewController.swift in Sources */,
+				49B200D01CED6A9C00B3FE69 /* ResidentDetailViewController.swift in Sources */,
 				49B200741CECA33A00B3FE69 /* ViewController.swift in Sources */,
+				49B200CA1CED04D000B3FE69 /* ResidentViewController.swift in Sources */,
+				49B200C81CECE57A00B3FE69 /* LoginManager.swift in Sources */,
+				49B200D21CED6AAE00B3FE69 /* AdminDetailViewController.swift in Sources */,
+				49B200C41CECDE3D00B3FE69 /* WorkOrder.swift in Sources */,
 				49B200721CECA33A00B3FE69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +349,7 @@
 		};
 		49B200811CECA33A00B3FE69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02BB7A2719A7B043E6560B2 /* Pods-ApartmentMgr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ApartmentMgr/Info.plist;
@@ -261,6 +361,7 @@
 		};
 		49B200821CECA33A00B3FE69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E8289E21DD057B969D3393 /* Pods-ApartmentMgr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ApartmentMgr/Info.plist;
@@ -289,6 +390,7 @@
 				49B200821CECA33A00B3FE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
